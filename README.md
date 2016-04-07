@@ -2,11 +2,11 @@ Implementation of different algorithms
 
 antisym.cpp
 
-	Count the number of antisymetric subgstrings of given string over the alphabet {0,1} in O(length) time using Manacher algorithm.
+	Count the number of antisymmetric substrings of given string over the alphabet {0,1} in O(length) time using Manacher algorithm.
 
 dft.cpp
 
-	Fast fourier transformation in finite field
+	Fast fourier transformation in a finite field
 
 range.cpp
 
@@ -24,7 +24,7 @@ range.cpp
 
 kquery.cpp
 
-	Data structure extenging array with operation:
+	Data structure extending array with operation:
 
 		query(b,e,k): find the number of elements <=k in the subarray [b..e] in time  O(sqrt(n)log(n))
 	
